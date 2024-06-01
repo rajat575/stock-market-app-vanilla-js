@@ -1,0 +1,89 @@
+body {
+  background-color: #04122c;
+}
+
+#heading {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+}
+#graph {
+  width: 800px;
+  height: 400px;
+}
+
+#flexDiv {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#listDiv {
+  margin-right: 50px;
+  color: white;
+}
+
+.cmpName {
+  border: white 2px solid;
+  border-radius: 5px;
+  text-align: center;
+  width: 60px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.currentPrice {
+  text-align: left;
+  width: 100px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.lossGain {
+  font-weight: bold;
+  text-align: left;
+  width: 100px;
+  margin-top: 10px;
+  display: inline-block;
+}
+#desc {
+  color: white;
+  width: 800px;
+  margin-top: 20px;
+}
+
+#name {
+  font-size: 25px;
+  margin: 0px 25px 0px 25px;
+  display: inline-block;
+}
+#profit {
+  font-size: 25px;
+  margin: 0px 25px 0px 25px;
+  display: inline-block;
+}
+#price {
+  font-size: 25px;
+  margin: 0px 25px 0px 25px;
+  display: inline-block;
+}
+
+#time {
+  margin-top: 20px;
+
+  color: white;
+}
+
+.timeSpan {
+  border: 2px solid white;
+  font-size: 15px;
+  width: 60px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0px 10px 0px 10px;
+  padding: 10px;
+  display: inline-block;
+}
